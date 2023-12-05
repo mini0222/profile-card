@@ -1,0 +1,140 @@
+@font-face {
+    font-family: "Kumbh Sans";
+    src: url("./KumbhSans-VariableFont_YOPQ\,wght.ttf")
+
+}
+
+* {
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+body {
+    position: relative;
+    background: hsl(185, 75%, 39%);
+
+}
+
+.top {
+    position: absolute;
+    bottom: 30%;
+    right: 55%; 
+    opacity: 0.5;
+}
+
+.bottom {
+    position: absolute;
+    left: 40%;
+    margin: 150px;
+    opacity: 0.5;
+}
+
+.container {
+    margin: auto;
+    margin-top: 150px;
+    width: 370px;
+    background: white;
+    border-radius: 20px;
+    padding-bottom: 10px;
+    position: relative;
+ 
+    
+
+    
+}
+
+.card-top {
+    background-image: url("./bg-pattern-card.svg");
+    padding: 20px;
+    height: 110px;
+    border-top-left-radius:  20px;
+    border-top-right-radius:  20px;
+    
+    
+}
+
+
+
+
+.profile img {
+    height: 100px;
+    margin-top: -55px;
+    border-radius:  100px;
+    padding: 5px;
+    background: white;
+  
+    
+
+}
+
+.user-information {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+  justify-content: center;
+}
+
+
+.description { 
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+   
+   
+}
+
+.description span, .description :nth-child(2) {
+    color: hsl(0, 0%, 59%);
+    font-weight: normal
+}
+.description :nth-child(2) {
+    font-size: 14px;
+}
+
+.status {
+    margin-top: 5px;
+}
+.status ul {
+    display: flex;
+    list-style: none;
+    padding: 5px;
+
+   
+
+}
+
+.status ul li {
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    gap: 10px;
+}
+
+.status ul li span {
+    font-size: 10px;
+    font-weight: normal;
+    color:  hsl(0, 0%, 59%);
+    letter-spacing: 1px;
+}
+
+.line {
+    border-top: solid hsl(0, 0%, 85%);
+    margin: 0;
+    width: 100%
+}
+
+
+@media only screen and (max-width: 375px) {
+
+    .container {
+        width: 350px;
+    }
+
+   
+    .bottom {
+       left: 10%;
+    }
+}
