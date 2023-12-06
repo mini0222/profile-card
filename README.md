@@ -7,7 +7,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
-  - [Links](#links)
+  - [Links](#links)https://github.com/mini0222/profile-card/blob/main/README.md
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -41,7 +41,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### What I learned
 
-
+I discovered how to position elements on top of others using margins. It's fascinating – not only can you create space between elements, but you can also precisely position an element over others. For instance, I utilized this technique to center the profile picture perfectly within the profile card.
 
 
 ```css
